@@ -1305,8 +1305,7 @@ function sendToWhatsApp() {
     `💰 *الإجمالي: LE ${getTotal().toFixed(2)}*`;
 
   // Replace WHATSAPP_NUMBER with your actual number (e.g. 201009805534)
-  const whatsappNumber = 'WHATSAPP_NUMBER';
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+const whatsappNumber = '201009805534';
   window.open(url, '_blank');
 }
 
