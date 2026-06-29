@@ -1304,8 +1304,8 @@ function sendToWhatsApp() {
     `\n📦 *المنتجات:*\n${itemsText}\n\n` +
     `💰 *الإجمالي: LE ${getTotal().toFixed(2)}*`;
 
-  // Replace WHATSAPP_NUMBER with your actual number (e.g. 201009805534)
-const whatsappNumber = '201009805534';
+  // Replace WHATSAPP_NUMBER with your actual number (e.g.201009805534)
+  const url = `https://wa.me/201009805534?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
 }
 
